@@ -70,8 +70,8 @@ public class TC_LoginDDT_002 extends Baseclass
 	{
 		String path=System.getProperty("user.dir")+"/src/test/java/com/testbanking/testData/LoginData.xlsx";
 		
-		int rownum=XLUtils.getRowCount(path, "Sheet1");
-		int colcount=XLUtils.getCellCount(path,"Sheet1",1);
+		int rownum=XLUtils.getRowCount(path, "login");
+		int colcount=XLUtils.getCellCount(path,"login",1);
 		
 		String logindata[][]=new String[rownum][colcount];
 		
@@ -79,7 +79,7 @@ public class TC_LoginDDT_002 extends Baseclass
 		{
 			for(int j=0;j<colcount;j++)
 			{
-				logindata[i-1][j]=XLUtils.getCellData(path,"Sheet1", i,j);//1 0
+				logindata[i-1][j]=XLUtils.getCellData(path,"login", i,j);//1 0
 			}
 				
 		}
