@@ -8,25 +8,25 @@
   <test name="BankingApp Test(failed)">
     <parameter name="Browser" value="chrome"/>
     <classes>
-      <class name="com.testbanking.TestCases.TC_LoginDDT_002">
-        <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="loginDDT" invocation-numbers="1 2 3 4"/>
-        </methods>
-      </class> <!-- com.testbanking.TestCases.TC_LoginDDT_002 -->
-      <class name="com.testbanking.TestCases.TC_AddCustomerTest_003">
-        <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.testbanking.TestCases.TC_AddCustomerTest_003 -->
       <class name="com.testbanking.TestCases.Logintest_001">
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.testbanking.TestCases.Logintest_001 -->
+      <class name="com.testbanking.TestCases.TC_AddCustomerTest_003">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testbanking.TestCases.TC_AddCustomerTest_003 -->
+      <class name="com.testbanking.TestCases.addnewcutomer_004">
+        <methods>
+          <include name="teardown"/>
+          <include name="addnewcutomer"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testbanking.TestCases.addnewcutomer_004 -->
     </classes>
   </test> <!-- BankingApp Test(failed) -->
 </suite> <!-- Failed suite [testbanking] -->

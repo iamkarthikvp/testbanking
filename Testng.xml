@@ -12,6 +12,7 @@
 			<class name="com.testbanking.TestCases.Logintest_001" />
 			<!--    <class name="com.testbanking.TestCases.TC_LoginDDT_002" />-->
 			<class name="com.testbanking.TestCases.TC_AddCustomerTest_003" />
+			<class name="com.testbanking.TestCases.addnewcutomer_004" />
 		</classes>
 	</test>
 

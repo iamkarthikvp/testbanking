@@ -1,9 +1,0 @@
-com\testbanking\TestCases\Logintest_001.class
-com\testbanking\TestCases\TC_LoginDDT_002.class
-com\testbanking\utilities\XLUtils.class
-com\testbanking\TestCases\Baseclass.class
-com\testbanking\PageObjetcs\AddCustomerPage.class
-com\testbanking\PageObjetcs\loginpage.class
-com\testbanking\utilities\Reporting.class
-com\testbanking\TestCases\TC_AddCustomerTest_003.class
-com\testbanking\utilities\ReadConfiq.class

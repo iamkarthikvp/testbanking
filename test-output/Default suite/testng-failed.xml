@@ -4,13 +4,13 @@
   <parameter name="Browser" value="chrome"/>
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testbanking.TestCases.TC_LoginDDT_002">
+      <class name="com.testbanking.TestCases.addnewcutomer_004">
         <methods>
           <include name="teardown"/>
+          <include name="addnewcutomer"/>
           <include name="setup"/>
-          <include name="loginDDT"/>
         </methods>
-      </class> <!-- com.testbanking.TestCases.TC_LoginDDT_002 -->
+      </class> <!-- com.testbanking.TestCases.addnewcutomer_004 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

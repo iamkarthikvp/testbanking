@@ -84,7 +84,10 @@ public class AddCustomerPage {
 		txtdob.sendKeys(yy);
 		
 	}
-
+	public void custdobDDT(String DOB) {
+		txtdob.sendKeys(DOB);
+		
+	}
 	public void custaddress(String caddress) {
 		txtaddress.sendKeys(caddress);
 	}
