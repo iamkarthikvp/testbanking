@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testbanking]">
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.testbanking.utilities.Reporting"/>
+  </listeners>
+  <test name="BankingApp Test(failed)">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.testbanking.TestCases.Logintest_001">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testbanking.TestCases.Logintest_001 -->
+      <class name="com.testbanking.TestCases.TC_AddCustomerTest_003">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testbanking.TestCases.TC_AddCustomerTest_003 -->
+      <class name="com.testbanking.TestCases.addnewcutomer_004">
+        <methods>
+          <include name="teardown"/>
+          <include name="addnewcutomer"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.testbanking.TestCases.addnewcutomer_004 -->
+    </classes>
+  </test> <!-- BankingApp Test(failed) -->
+</suite> <!-- Failed suite [testbanking] -->
